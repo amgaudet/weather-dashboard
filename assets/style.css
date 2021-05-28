@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(92, 226, 250);
+}
+
+main {
+    background-color: rgb(129, 230, 248);
+    padding: 40px;
+}
+
+.week-forecast {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 8px;
+}
+
+li {
+    list-style-type: none;
+    margin: 8px;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: rgb(224, 49, 49);
+}
